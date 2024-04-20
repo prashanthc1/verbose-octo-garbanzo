@@ -1,0 +1,36 @@
+name: responsive_admin_panel
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=3.3.4 <4.0.0"
+dependencies:
+    flutter:
+        sdk: flutter
+
+    cupertino_icons: ^1.0.6
+    google_fonts: ^6.2.1
+    provider: ^6.1.2
+    flutter_svg: ^2.0.10+1
+    fl_chart: ^0.67.0
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    flutter_lints: ^3.0.0
+    import_sorter: ^4.6.0
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/
+        - assets/icons/
+        - assets/images/
+
+import_sorter:
+    emojis: true
+    comments: true
+    ignored_files:
+        - \/test\/*
